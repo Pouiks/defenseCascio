@@ -1,0 +1,23 @@
+.nav{
+    height:80px;
+}
+
+.history_photo-fullwidth{
+    width: 100%;
+}
+
+
+.history_histoire-photo{
+    height: 800px;
+}
+.history_histoire_competences-photo{
+    width: 70%;
+}
+
+.row{
+    padding-bottom: 3rem;
+}
+
+.col-sm{
+    text-align: center;
+}
