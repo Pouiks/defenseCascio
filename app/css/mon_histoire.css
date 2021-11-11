@@ -1,0 +1,145 @@
+/*  */
+
+
+/* Nav_bar */
+.nav {
+  height: 8rem;
+}
+/* Bandeau photo*/
+.history_header-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  
+}
+.history_header_centered_h1{
+    font-size: 100px;
+    font-style: italic;
+}
+.history_header {
+  position: relative;
+  text-align: center;
+}
+.history_photo-fullwidth {
+  width: 100%;
+}
+
+/* Histoire*/
+.history_histoire-photo {
+  height: 800px;
+}
+.history_histoire_competences-photo {
+  width: 70%;
+}
+.row {
+  padding-bottom: 3rem;
+}
+.col-sm {
+  /* text-align: center; */
+  
+}
+.card{
+    border: none !important;
+    text-align: center;
+    
+}
+.card-text{
+    text-transform: uppercase;
+}
+
+/* End photo */
+
+.history_photo_end-img{
+    width: 100%;
+}
+.history_footer_end-text{
+    position: relative;
+    text-align: center;
+    color: white; 
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .history_footer_top_h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 20px;
+
+    font-style: italic; 
+    font-weight: 800;
+    
+  }
+  .history_footer_centered_h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 16rem;
+    letter-spacing: 5px;
+
+    font-style: italic;
+    font-weight: 800;
+    
+  }
+  .history_footer_bottom_right_h1{
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+    font-style: italic; 
+    font-weight: 800;  
+  }
+  .history_footer_bottom_right_facebook{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    filter:drop-shadow(0 0 0.5rem rgb(236, 231, 232));
+  }
+  
+  .history_footer_bottom_right_instagram{
+    position: absolute;
+    top: 55%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    filter:drop-shadow(0 0 0.5rem rgb(236, 231, 232));
+  }
+  .history_footer_bottom_right_youtube{
+    position: absolute;
+    top: 60%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    filter:drop-shadow(0 0 0.5rem rgb(236, 231, 232));
+  }
+  .history_footer_bottom_right_twitter{
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    filter:drop-shadow(0 0 0.5rem rgb(236, 231, 232));
+  }
