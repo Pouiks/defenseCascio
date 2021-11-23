@@ -56,15 +56,30 @@
 }
 
 /* description */
-
+.large_margin{
+    margin: 50px 0px;
+}
 hr.dashed {
     width: 15%;
-    margin-top: -10px;
+    margin-top: -20px;
     border: 1px solid black;
+    
   }
 
+.white_hr{
+    width: 40%;
+    border: 1px solid white;
+    margin-left: -20px;
+    filter:drop-shadow(0 0 0.15rem rgb(236, 231, 232));
+}
+.white_text{
+    color: white;
+}
+
 .home_description{
-display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
 }
 .home_description_text--reassurance{
     text-align: left;
@@ -106,6 +121,7 @@ display: flex;flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 .home_cards_description-left{
     color: black;
@@ -123,7 +139,53 @@ display: flex;flex-direction: column;
 .home_apport_perso{
     display: flex;
     background-color: #86969E;
+    justify-content: space-around;
 }
 .home_apport_perso--left{
-    text-align:center;
+    text-align:left;
+    padding-top: 50px;
+
+}
+.home_apport_perso-left--description{
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    filter:drop-shadow(0 0 0.12rem rgb(236, 231, 232));
+}
+.home_apport_perso-right{
+    width: 10%;
+    justify-self: flex-end;
+}
+
+/* Video player */
+
+.home_video_player {
+    margin: 50px 0px;
+}
+
+/* home_info_defense */
+.background_grey{
+    
+    background-color: lightgrey;
+}
+.home_info_defense{
+    display: flex;
+}
+.home_info_defense-title{
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.home_info_defense-subtitle{
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+}
+.home_info_defense-description--name{
+    font-style: italic;
+    font-weight: bold;
+}
+.home_info_defense-description--profession{
+    font-style: italic;
 }
