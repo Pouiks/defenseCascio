@@ -22,17 +22,52 @@
 .history_header {
   position: relative;
   text-align: center;
-}
-.history_photo-fullwidth {
+  background-image: url('https://defensepersonnelle.fr/wp-content/uploads/2021/08/Christophe-Cascio-2.jpeg');
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: 125%;
+  height: 800px;
   width: 100%;
+  
 }
 
 /* Histoire*/
+.large_padding{
+  /* padding: 0px 400px 0px 400px; */
+  
+  
+  
+}
 .history_histoire-photo {
   height: 800px;
+  border-top-right-radius: 8rem 8rem;
 }
-.history_histoire_competences-photo {
-  width: 70%;
+.history_histoire_title{
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+
+  
+}
+.history_histoire_bold{
+  font-weight: 900;
+}
+.history_histoire_bold_title{
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.history_photo_montee{
+  border-top-left-radius: 5rem 5rem;
+}
+.history_photo_learn{
+  
+}
+.history_photo_cles{
+  border-bottom-right-radius: 5rem 5rem;
 }
 .row {
   padding-bottom: 3rem;
@@ -43,11 +78,17 @@
 }
 .card{
     border: none !important;
-    text-align: center;
+    /* text-align: center; */
     
+    
+}
+.card-body{
+  padding: 10rem 0rem 0rem 0rem;
 }
 .card-text{
     text-transform: uppercase;
+    font-weight: 900;
+    
 }
 
 /* End photo */
@@ -55,6 +96,16 @@
 .history_photo_end-img{
     width: 100%;
 }
+
+.history_footer{
+  position: relative;
+  text-align: center;
+  background-image: url(../assets/images/mon_histoire/Christophe-cascio-regard.jpg);
+  background-size: 125%;
+  height: 800px;
+  width: 100%;
+}
+
 .history_footer_end-text{
     position: relative;
     text-align: center;
@@ -142,4 +193,16 @@
     font-size: 2rem;
     color: white;
     filter:drop-shadow(0 0 0.5rem rgb(236, 231, 232));
+  }
+
+  /*History_footer*/
+  .history_socials{
+    
+    letter-spacing: 8px;
+    font-size: 2rem;
+    color: white;
+    background-color:rgba(42,50,68,0.94);
+  }
+  .history_socials_icons{
+    margin-left: 70%;
   }
